@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+<script src="mul.js"></script>
+<link rel="stylesheet" href="mul.css">
+   
+<body>
+    <center><h1>Matrix Multiply App</h1>
+    <form onsubmit="gpt();return false">
+        <input type="number" required id="gp1">&nbsp; 
+        X
+        <input type="number" required id="gp2" >
+        <button class="jty">Start</button>
+        <div id="msg"></div>
+    </form> <br>
+    <br></center>
+
+    <form onsubmit="multiply();return false" class="hide" id="osf">
+        <div class="hi" id="mt1"></div>&nbsp;
+        X
+        <div class="hi" id="mt2"></div>
+        <button class="jty">Multiply</button>&nbsp;
+        <div class="hi" id="intermediate"></div>&nbsp;<B> = </B>&nbsp;
+        <div class="hi" id="rmt"></div>
+    </form>
+
+</body>
+
+</html>
